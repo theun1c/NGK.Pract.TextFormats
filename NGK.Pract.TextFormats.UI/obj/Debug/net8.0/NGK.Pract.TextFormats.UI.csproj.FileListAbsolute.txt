@@ -17,3 +17,4 @@ C:\Users\belov\Desktop\projects\NGK.Pract.TextFormats\NGK.Pract.TextFormats.UI\o
 C:\Users\belov\Desktop\projects\NGK.Pract.TextFormats\NGK.Pract.TextFormats.UI\obj\Debug\net8.0\NGK.Pract.TextFormats.UI.pdb
 C:\Users\belov\Desktop\projects\NGK.Pract.TextFormats\NGK.Pract.TextFormats.UI\obj\Debug\net8.0\NGK.Pract.TextFormats.UI.genruntimeconfig.cache
 C:\Users\belov\Desktop\projects\NGK.Pract.TextFormats\NGK.Pract.TextFormats.UI\obj\Debug\net8.0\ref\NGK.Pract.TextFormats.UI.dll
+C:\Users\belov\Desktop\projects\NGK.Pract.TextFormats\NGK.Pract.TextFormats.UI\bin\Debug\net8.0\YamlDotNet.dll

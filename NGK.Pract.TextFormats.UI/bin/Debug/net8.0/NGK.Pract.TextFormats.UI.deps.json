@@ -14,7 +14,18 @@
           "NGK.Pract.TextFormats.UI.dll": {}
         }
       },
+      "YamlDotNet/16.3.0": {
+        "runtime": {
+          "lib/net8.0/YamlDotNet.dll": {
+            "assemblyVersion": "16.0.0.0",
+            "fileVersion": "16.3.0.0"
+          }
+        }
+      },
       "NGK.Pract.TextFormats/1.0.0": {
+        "dependencies": {
+          "YamlDotNet": "16.3.0"
+        },
         "runtime": {
           "NGK.Pract.TextFormats.dll": {
             "assemblyVersion": "1.0.0",
@@ -29,6 +40,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "YamlDotNet/16.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SgMOdxbz8X65z8hraIs6hOEdnkH6hESTAIUa7viEngHOYaH+6q5XJmwr1+yb9vJpNQ19hCQY69xbFsLtXpobQA==",
+      "path": "yamldotnet/16.3.0",
+      "hashPath": "yamldotnet.16.3.0.nupkg.sha512"
     },
     "NGK.Pract.TextFormats/1.0.0": {
       "type": "project",

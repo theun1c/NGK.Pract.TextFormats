@@ -10,3 +10,4 @@ C:\Users\belov\Desktop\projects\NGK.Pract.TextFormats\NGK.Pract.TextFormats\obj\
 C:\Users\belov\Desktop\projects\NGK.Pract.TextFormats\NGK.Pract.TextFormats\obj\Debug\net8.0\refint\NGK.Pract.TextFormats.dll
 C:\Users\belov\Desktop\projects\NGK.Pract.TextFormats\NGK.Pract.TextFormats\obj\Debug\net8.0\NGK.Pract.TextFormats.pdb
 C:\Users\belov\Desktop\projects\NGK.Pract.TextFormats\NGK.Pract.TextFormats\obj\Debug\net8.0\ref\NGK.Pract.TextFormats.dll
+C:\Users\belov\Desktop\projects\NGK.Pract.TextFormats\NGK.Pract.TextFormats\obj\Debug\net8.0\NGK.Pract.TextFormats.csproj.AssemblyReference.cache

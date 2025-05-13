@@ -1,11 +1,12 @@
-﻿using System;
+﻿using NGK.Pract.TextFormats.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
 
-namespace NGK.Pract.TextFormats
+namespace NGK.Pract.TextFormats.TextMethods
 {
     public class JSONMethod
     {
@@ -19,7 +20,7 @@ namespace NGK.Pract.TextFormats
             string json = JsonSerializer.Serialize(products);
             File.WriteAllText(_path, json);
         }
-        public List<Product> ReadProducts() 
+        public List<Product> ReadProducts()
         {
             string json = File.ReadAllText(_path);
             List<Product> products = JsonSerializer.Deserialize<List<Product>>(json);

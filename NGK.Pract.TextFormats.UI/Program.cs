@@ -1,4 +1,7 @@
-﻿namespace NGK.Pract.TextFormats.UI
+﻿using NGK.Pract.TextFormats.Models;
+using NGK.Pract.TextFormats.TextMethods;
+
+namespace NGK.Pract.TextFormats.UI
 {
     internal class Program
     {
@@ -22,11 +25,15 @@
             });
             //MainMethod mainMethod = new MainMethod("products.txt");
             //mainMethod.WriteProduct(products);
-            JSONMethod jSONMethod = new JSONMethod("products.json");
-            jSONMethod.WriteProduct(products);
+            //JSONMethod jSONMethod = new JSONMethod("products.json");
+            //jSONMethod.WriteProduct(products);
+
+            XMLMethod xMLMethod = new XMLMethod("products.xml");
+            xMLMethod.WriteProduct(products);
+
 
             List<Product> newProd = new List<Product>();
-            newProd = jSONMethod.ReadProducts();
+            newProd = xMLMethod.ReadProducts();
             foreach (Product product in newProd) 
             {
                 Console.WriteLine(product.ToString());

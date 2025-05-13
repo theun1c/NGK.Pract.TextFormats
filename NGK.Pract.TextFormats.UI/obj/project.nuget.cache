@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "grUCyobYuxY=",
+  "dgSpecHash": "iy0u4/vj+IY=",
   "success": true,
   "projectFilePath": "C:\\Users\\belov\\Desktop\\projects\\NGK.Pract.TextFormats\\NGK.Pract.TextFormats.UI\\NGK.Pract.TextFormats.UI.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\belov\\.nuget\\packages\\yamldotnet\\16.3.0\\yamldotnet.16.3.0.nupkg.sha512"
+  ],
   "logs": []
 }

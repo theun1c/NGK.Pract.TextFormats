@@ -1,5 +1,5 @@
 ﻿//1.	Управление запасами: Считывание и обработка данных о товарах на складе (идентификатор, название, количество, цена, категория)
-namespace NGK.Pract.TextFormats
+namespace NGK.Pract.TextFormats.Models
 {
     /// <summary>
     /// Product model for DLL
