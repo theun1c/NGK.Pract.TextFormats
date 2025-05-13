@@ -18,19 +18,41 @@ namespace NGK.Pract.TextFormats.TextMethods
         }
         public void WriteProduct(List<Product> products)
         {
-            XmlSerializer serializer = new XmlSerializer(typeof(List<Product>));
-            using (StreamWriter writer = new StreamWriter(_path))
+            try
             {
-                serializer.Serialize(writer, products);
+                XmlSerializer serializer = new XmlSerializer(typeof(List<Product>));
+                using (StreamWriter writer = new StreamWriter(_path))
+                {
+                    serializer.Serialize(writer, products);
+                }
+            }
+            catch (Exception ex) 
+            {
+                Console.WriteLine(ex.Message);
             }
         }
         public List<Product> ReadProducts()
         {
-            XmlSerializer serializer = new XmlSerializer(typeof(List<Product>));
-            using (StreamReader reader = new StreamReader(_path))
+            try
             {
-                List<Product> products = (List<Product>)serializer.Deserialize(reader);
-                return products;
+                if (File.Exists(_path)) 
+                {
+                    XmlSerializer serializer = new XmlSerializer(typeof(List<Product>));
+                    using (StreamReader reader = new StreamReader(_path))
+                    {
+                        List<Product> products = (List<Product>)serializer.Deserialize(reader);
+                        return products;
+                    }
+                }
+                else
+                {
+                    return new List<Product>();
+                }
+            }
+            catch (Exception ex) 
+            {
+                Console.WriteLine(ex.Message);
+                return new List<Product>();
             }
         }
     }

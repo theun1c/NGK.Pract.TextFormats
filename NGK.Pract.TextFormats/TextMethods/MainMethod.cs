@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -22,38 +23,61 @@ namespace NGK.Pract.TextFormats.TextMethods
 
         public void WriteProduct(List<Product> products)
         {
-            using (StreamWriter writer = new StreamWriter(_path))
+            try
             {
-                foreach (Product product in products)
+                using (StreamWriter writer = new StreamWriter(_path))
                 {
-                    writer.WriteLine($"{product.Id},{product.Name},{product.Count},{product.Price},{product.Category}");
+                    foreach (Product product in products)
+                    {
+                        writer.WriteLine($"{product.Id},{product.Name},{product.Count},{product.Price},{product.Category}");
+                    }
                 }
+            }
+            catch (Exception ex) 
+            {
+                Console.WriteLine(ex.Message);
             }
         }
 
         public List<Product> ReadProducts()
         {
             List<Product> products = new List<Product>();
-            using (StreamReader reader = new StreamReader(_path))
+            try
             {
-                string line;
-                while ((line = reader.ReadLine()) != null)
+                if (File.Exists(_path)) 
                 {
-                    string[] parts = line.Split(',');
-                    if (parts.Length == 5)
+                    using (StreamReader reader = new StreamReader(_path))
                     {
-                        products.Add(new Product
+                        string line;
+                        while ((line = reader.ReadLine()) != null)
                         {
-                            Id = Convert.ToInt32(parts[0]),
-                            Name = parts[1],
-                            Count = Convert.ToInt32(parts[2]),
-                            Price = Convert.ToInt32(parts[3]),
-                            Category = parts[4]
-                        });
+                            string[] parts = line.Split(',');
+                            if (parts.Length == 5)
+                            {
+                                products.Add(new Product
+                                {
+                                    Id = Convert.ToInt32(parts[0]),
+                                    Name = parts[1],
+                                    Count = Convert.ToInt32(parts[2]),
+                                    Price = Convert.ToInt32(parts[3]),
+                                    Category = parts[4]
+                                });
+                            }
+                        }
                     }
+                    return products;
+                }
+                else
+                {
+                    return new List<Product>();
                 }
             }
-            return products;
+            catch (Exception ex) 
+            {
+                Console.WriteLine(ex.Message);
+                return new List<Product>();
+            }
+            
         }
     }
 }

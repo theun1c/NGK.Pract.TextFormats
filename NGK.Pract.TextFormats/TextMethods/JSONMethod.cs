@@ -17,14 +17,36 @@ namespace NGK.Pract.TextFormats.TextMethods
         }
         public void WriteProduct(List<Product> products)
         {
-            string json = JsonSerializer.Serialize(products);
-            File.WriteAllText(_path, json);
+            try
+            {
+                string json = JsonSerializer.Serialize(products);
+                File.WriteAllText(_path, json);
+            }
+            catch (Exception ex) 
+            {
+                Console.WriteLine(ex.Message);
+            }
         }
         public List<Product> ReadProducts()
         {
-            string json = File.ReadAllText(_path);
-            List<Product> products = JsonSerializer.Deserialize<List<Product>>(json);
-            return products;
+            try
+            {
+                if (File.Exists(_path))
+                {
+                    string json = File.ReadAllText(_path);
+                    List<Product> products = JsonSerializer.Deserialize<List<Product>>(json);
+                    return products;
+                }
+                else
+                {
+                    return new List<Product>();
+                }
+            }
+            catch (Exception ex) 
+            {
+                Console.WriteLine(ex.Message);
+                return new List<Product>();
+            }
         }
     }
 }
