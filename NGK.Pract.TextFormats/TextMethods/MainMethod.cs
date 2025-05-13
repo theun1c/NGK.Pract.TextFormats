@@ -25,7 +25,7 @@ namespace NGK.Pract.TextFormats.TextMethods
         {
             try
             {
-                using (StreamWriter writer = new StreamWriter(_path))
+                using (StreamWriter writer = new StreamWriter(_path, true))
                 {
                     foreach (Product product in products)
                     {

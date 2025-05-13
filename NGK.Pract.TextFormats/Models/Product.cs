@@ -14,7 +14,7 @@ namespace NGK.Pract.TextFormats.Models
 
         public override string ToString()
         {
-            return $"id: {Id} \nname: {Name} \ncount: {Count} \nprice: {Price} \ncategory: {Category}";
+            return $"id: {Id} name: {Name} count: {Count} price: {Price} category: {Category}";
         }
     }
 }
