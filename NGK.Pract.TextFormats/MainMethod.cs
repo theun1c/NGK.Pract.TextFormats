@@ -9,14 +9,19 @@ namespace NGK.Pract.TextFormats
 {
     /// <summary>
     /// Main class
+    /// CSV and TXT works with WriteProduct and ReadProducts
     /// </summary>
     public class MainMethod
     {
-        private string path = "products.txt";
+        private string _path;
+        public MainMethod(string path)
+        {
+            _path = path;
+        }
 
         public void WriteProduct(List<Product> products)
         {
-            using (StreamWriter writer = new StreamWriter(path))
+            using (StreamWriter writer = new StreamWriter(_path))
             {
                 foreach (Product product in products) 
                 {
@@ -28,7 +33,7 @@ namespace NGK.Pract.TextFormats
         public List<Product> ReadProducts() 
         {
             List<Product> products = new List<Product>();
-            using (StreamReader reader = new StreamReader(path)) 
+            using (StreamReader reader = new StreamReader(_path)) 
             {
                 string line;
                 while((line = reader.ReadLine()) != null)

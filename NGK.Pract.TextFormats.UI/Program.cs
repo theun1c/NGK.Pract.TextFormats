@@ -20,10 +20,13 @@
                 Count = 123,
                 Category = "Test categ 2",
             });
-            MainMethod mainMethod = new MainMethod();
-            mainMethod.WriteProduct(products);
+            //MainMethod mainMethod = new MainMethod("products.txt");
+            //mainMethod.WriteProduct(products);
+            JSONMethod jSONMethod = new JSONMethod("products.json");
+            jSONMethod.WriteProduct(products);
+
             List<Product> newProd = new List<Product>();
-            newProd = mainMethod.ReadProducts();
+            newProd = jSONMethod.ReadProducts();
             foreach (Product product in newProd) 
             {
                 Console.WriteLine(product.ToString());
