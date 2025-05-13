@@ -34,10 +34,6 @@ namespace NGK.Pract.TextFormats.UI
                 Console.WriteLine("2. Записать данные в файл");
                 Console.WriteLine("3. Отсортировать по цене");
                 Console.WriteLine("4. Сортировка продуктов");
-                Console.WriteLine("5. Поиск продуктов");
-                Console.WriteLine("6. Добавить продукт");
-                Console.WriteLine("7. Удалить продукт");
-                Console.WriteLine("8. Редактировать продукт");
                 Console.WriteLine("0. Выход");
                 Console.Write("Выберите действие: ");
                 if (!int.TryParse(Console.ReadLine(), out int num))

@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NGK.Pract.TextFormats", "NG
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NGK.Pract.TextFormats.UI", "NGK.Pract.TextFormats.UI\NGK.Pract.TextFormats.UI.csproj", "{02975D1D-C694-491C-B6BA-2F3266D0AF0F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NGK.Pract.TextFormats.Tests", "NGK.Pract.TextFormats.Tests\NGK.Pract.TextFormats.Tests.csproj", "{D9C9BC6D-EAFA-4ED1-8DE4-99D86F494E5B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{02975D1D-C694-491C-B6BA-2F3266D0AF0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02975D1D-C694-491C-B6BA-2F3266D0AF0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02975D1D-C694-491C-B6BA-2F3266D0AF0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9C9BC6D-EAFA-4ED1-8DE4-99D86F494E5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9C9BC6D-EAFA-4ED1-8DE4-99D86F494E5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9C9BC6D-EAFA-4ED1-8DE4-99D86F494E5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9C9BC6D-EAFA-4ED1-8DE4-99D86F494E5B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
