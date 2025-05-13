@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NGK.Pract.TextFormats.UI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ce4384e1dedb1371cf96eb392feb6d9dbc401a5c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d992c48aeeb62034a036fc7e9d2fc3406c9c10e8")]
 [assembly: System.Reflection.AssemblyProductAttribute("NGK.Pract.TextFormats.UI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NGK.Pract.TextFormats.UI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "NGK.Pract.TextFormats.UI/1.0.0": {
+        "dependencies": {
+          "NGK.Pract.TextFormats": "1.0.0"
+        },
+        "runtime": {
+          "NGK.Pract.TextFormats.UI.dll": {}
+        }
+      },
+      "NGK.Pract.TextFormats/1.0.0": {
+        "runtime": {
+          "NGK.Pract.TextFormats.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NGK.Pract.TextFormats.UI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NGK.Pract.TextFormats/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,12 @@
+C:\Users\belov\Desktop\projects\NGK.Pract.TextFormats\NGK.Pract.TextFormats\bin\Debug\net8.0\NGK.Pract.TextFormats.deps.json
+C:\Users\belov\Desktop\projects\NGK.Pract.TextFormats\NGK.Pract.TextFormats\bin\Debug\net8.0\NGK.Pract.TextFormats.dll
+C:\Users\belov\Desktop\projects\NGK.Pract.TextFormats\NGK.Pract.TextFormats\bin\Debug\net8.0\NGK.Pract.TextFormats.pdb
+C:\Users\belov\Desktop\projects\NGK.Pract.TextFormats\NGK.Pract.TextFormats\obj\Debug\net8.0\NGK.Pract.TextFormats.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\belov\Desktop\projects\NGK.Pract.TextFormats\NGK.Pract.TextFormats\obj\Debug\net8.0\NGK.Pract.TextFormats.AssemblyInfoInputs.cache
+C:\Users\belov\Desktop\projects\NGK.Pract.TextFormats\NGK.Pract.TextFormats\obj\Debug\net8.0\NGK.Pract.TextFormats.AssemblyInfo.cs
+C:\Users\belov\Desktop\projects\NGK.Pract.TextFormats\NGK.Pract.TextFormats\obj\Debug\net8.0\NGK.Pract.TextFormats.csproj.CoreCompileInputs.cache
+C:\Users\belov\Desktop\projects\NGK.Pract.TextFormats\NGK.Pract.TextFormats\obj\Debug\net8.0\NGK.Pract.TextFormats.sourcelink.json
+C:\Users\belov\Desktop\projects\NGK.Pract.TextFormats\NGK.Pract.TextFormats\obj\Debug\net8.0\NGK.Pract.TextFormats.dll
+C:\Users\belov\Desktop\projects\NGK.Pract.TextFormats\NGK.Pract.TextFormats\obj\Debug\net8.0\refint\NGK.Pract.TextFormats.dll
+C:\Users\belov\Desktop\projects\NGK.Pract.TextFormats\NGK.Pract.TextFormats\obj\Debug\net8.0\NGK.Pract.TextFormats.pdb
+C:\Users\belov\Desktop\projects\NGK.Pract.TextFormats\NGK.Pract.TextFormats\obj\Debug\net8.0\ref\NGK.Pract.TextFormats.dll

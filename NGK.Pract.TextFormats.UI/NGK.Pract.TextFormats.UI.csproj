@@ -7,4 +7,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\NGK.Pract.TextFormats\NGK.Pract.TextFormats.csproj" />
+  </ItemGroup>
+
 </Project>
